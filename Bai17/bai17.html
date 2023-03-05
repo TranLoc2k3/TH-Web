@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main  {
+            margin: 0px 200px;
+            background-color: rgb(220, 186, 91);
+            /* margin-left: 10px; */
+        }
+        .title {
+            text-align: center;
+        }
+        .choose-brithday {
+            display: inline;
+        }
+        .but {
+            /* align-items: center; */
+            display: flex;
+            /* justify-items: center; */
+            align-items: center;
+        }
+        .question {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 class="title">Survay Form</h1>
+        <p>If you are interested in purchasing one or more of our products, begore ordering pleaase complete some or all of the following survey for our maketing department. Answering qustion is optional, and all informaition will be kept strictly confidential. Thank you very much for your time!</p>
+        <div class="question">
+            <div class="1">
+                <p>1. What is your name?</p>
+                <input type="text" size = "50">
+            </div>
+            <div class="2">
+                <p>2.What is your date of brith?</p>
+                <div class="choose-brithday">
+                    <p style="display: inline;">Month: </p>
+                    <select style="display: inline;">
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                      </select>
+                    <p style="display: inline;">Date: </p>
+                    <select style="display: inline;">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                    </select>
+                    <p style="display: inline;">Year: </p>
+                    <input type="text" size = "10">
+                </div>
+            </div>
+            <div class="3">
+                <p>3. What is your mailing address (if you would like to have a hard copy of our catalog setnt to you)?</p>
+                <textarea name="ans-3" id="" cols="50" rows="10"></textarea>
+            </div>
+            <div class="1">
+                <p>4. What is your email address?</p>
+                <input type="text" size = "50">
+            </div>
+            <div class="5">
+                <p>5. Have you viewed our online product catalog?</p>
+                <div class="ans-5">
+                    <input type="radio" name="1">Yes </input>
+                    <input type="radio" name="1">No </input>
+                </div>
+            </div>
+            <div class="6">
+                <p>6. If so, what product(s), besides the one you are ordering, might you be interested inpurchasing in the future?(Check all that appply)</p>
+                <div>
+                    <input type="checkbox">
+                    <label for="">VCR</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Big Screen TV</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Audio Equipment</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Camera Equipment</label>
+                </div>
+            </div>
+            <div class="7">
+                <p>7. Do you have any question, comments or suggestions before proceeding to the Order Form?
+                </p>
+                <textarea name="" id="" cols="80" rows="10"></textarea>
+            </div>
+        </div>
+        <div class="but">
+            <button>Send Form</button>
+            <button>Clear Form</button>
+        </div>
+    </div>
+</body>
+</html>
